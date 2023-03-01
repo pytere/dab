@@ -1,0 +1,5 @@
+text = "omid"
+
+for i in range(41, 48):
+    print(f"\033[{i}m{text}\033[00m", end='  ')
+    print(f"\033[{i+50}m{text}\033[00m")
